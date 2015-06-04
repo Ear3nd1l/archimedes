@@ -1,0 +1,381 @@
+.evtIFrame
+{
+	overflow: hidden;
+}
+
+.monthContainer
+{
+	width: 924px;
+	border: 1px solid #034d1a;
+	padding-left: 1px;
+	position: relative;
+}
+
+.daysOfWeekHeader
+{
+	width: 100%;
+}
+
+.daysOfWeekHeaderItem
+{
+	width: 127px;
+	padding: 0 2px;
+	text-align: center;
+	font-weight: bold;
+	float: left;
+	background-color: #034d1a;
+	color: #fff;
+	margin: 1px 1px 1px 0;
+}
+
+.weekRow
+{
+}
+
+.dayCell
+{
+	float: left;
+	width: 125px;
+	height: 125px;
+	padding: 2px;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	overflow: hidden;
+	position: relative;
+	border: 1px solid #c8d5c6;
+}
+
+.dayCellHover
+{
+	min-height: 170px;
+	height: auto;
+	width: 170px;
+	z-index: 10;
+	position: absolute;
+	border: 1px solid #474747;
+	margin: -19px 0 0 -19px;
+	overflow: visible;
+}
+
+.dayCellHover.sunday 
+{
+	margin: 0;
+	width: 170px;
+	margin: -19px 0 0 -19px;
+}
+
+.sunday
+{
+	background-color: #d1d9cb;
+	width: 124px;
+	margin-left: 1px;
+}
+
+.monday
+{
+	background-color: #e8efe3;
+}
+
+.tuesday
+{
+	background-color: #e8efe3;
+}
+
+.wednesday
+{
+	background-color: #e8efe3;
+}
+
+.thursday
+{
+	background-color: #e8efe3;
+}
+
+.friday
+{
+	background-color: #e8efe3;
+}
+
+.saturday
+{
+	background-color: #d1d9cb;
+	margin-right: 0;
+}
+
+.today
+{
+	background-color: #034d1a;
+	color: #fff;
+}
+
+.notCurrentMonth
+{
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #fff;
+}
+
+.evtItem
+{
+	width: 95%;
+	font-size: .8em;
+	line-height: normal;
+	margin: 1px 0;
+	border: 1px solid transparent;
+	padding: 0px 2px;
+	cursor: pointer;
+	overflow: hidden;
+	height: 40px;
+}
+
+.calIntramural
+{
+	background-color: #5b7437;
+	border-color: #1c2b06;
+	color: #fff;
+}
+
+.calSportClubs
+{
+	background-color: #fff;
+	border-color: #000;
+	color: #000;
+}
+
+.calOutdoorProgram
+{
+	background-color: #adbca1;
+	border-color: #6d875b;
+	color: #314621;
+}
+
+.calFitness
+{
+	background-color: #314621;
+	border-color: #192f08;
+	color: #fff;
+}
+
+.calChallengeCourse
+{
+	background-color: #c6940d;
+	border-color: #634b0a;
+	color: #312503;
+}
+
+.calRecCenter
+{
+	background-color: #3d2d00;
+	border-color: #3d2d00;
+	color: #fff;
+}
+
+.spnAddEvent
+{
+	position: absolute;
+	top: 2px;
+	right: 2px;
+	height: 10px;
+	width: 10px;
+	display: block;
+	cursor: pointer;
+	background-image: url(images/addEvent.png);
+	text-indent: -9999px;
+}
+
+.today .spnAddEvent
+{
+	background-image: url(images/addEventToday.png);
+}
+
+.calStartTime
+{
+	font-size: .9em;
+	display: block;
+}
+
+.calEndTime
+{
+	font-size: .9em;
+	display: block;
+}
+
+.calEventName
+{
+	display: block;
+	font-size: 1.1em;
+}
+
+.evtDetailLabel
+{
+	display: block;
+	font-weight: bold;
+	font-size: 1.3em;
+	line-height: 1.8em;
+	margin-bottom: 0px;
+}
+
+.evtDetailValue
+{
+	display: block;
+	font-size: 1.2em;
+	line-height: 1.8em;
+	margin-bottom: 5px;
+	margin-top: -5px;
+}
+
+.evtImportant
+{
+	display: block;
+	color: #ff0000;
+	font-size: 1.2em;
+	line-height: 1.8em;
+}
+
+.evtDetailsLeftContainer
+{
+	width: 48%;
+	float: left;
+	padding: 0 1%;
+}
+
+.evtDetailsRightContainer
+{
+	width: 47%;
+	float: right;
+	padding: 0 1%;
+}
+
+.evtDetailsFullContainer
+{
+	width: 98%;
+	clear: both;
+	padding: 5px;
+}
+
+.MainContainer
+{
+	height: 435px;
+	overflow-y: scroll;
+	background-image: url(images/eventDetailBG.png);
+	background-repeat: repeat-x;
+}
+
+.evtContainer
+{
+	background-color: #034d1a;
+	width: 825px;
+	padding: 2px;
+}
+
+.evtHeading
+{
+	margin: 4px 5px;
+	color: #fff;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.monthPrevious
+{
+	float: left;
+	width: 23%;
+	text-align: left;
+	padding: 0 1%;
+	cursor: pointer;
+}
+
+.monthNext
+{
+	float: right;
+	width: 23%;
+	text-align: right;
+	padding: 0 1%;
+	cursor: pointer;
+}
+
+.monthToday
+{
+	width: 50%;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+}
+
+.weekView
+{
+	margin-top: 20px;
+	width: 921px;
+}
+
+.monthView
+{
+	display: none;
+}
+
+.weekLeftColumn
+{
+	float: left;
+	width: 460px;
+	margin: 0;
+	padding: 0;
+}
+
+.weekRightColumn
+{
+	float: right;
+	width: 460px;
+	margin: 0;
+	padding: 0;
+}
+
+.weekDayHeading
+{
+	background-color: #5b7437;
+	color: #fff;
+	width: 440px;
+	padding: 1% 10px;
+	font-weight: bold;
+	margin: 0;
+	margin-top: 1px;
+}
+
+.weekEventItem
+{
+	margin: 0;
+	width: 440px;
+	padding: 1% 10px;
+	margin-top: 1px;
+	font-size: .9em;
+}
+
+.weekView .calSportClubs
+{
+	background-color: #adbca1;
+}
+
+.weekEventItem .evtDetailValue
+{
+	line-height: 1.1em;
+}
+
+.viewSwitcher
+{
+	width: 920px;
+	text-align: right;
+}
+
+.viewMonth
+{
+	font-size: 1.4em;
+	font-weight: bold;
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+.viewWeek
+{
+	font-size: 1.4em;
+	font-weight: bold;
+	cursor: pointer;
+}

@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+body
+{
+	margin: 0;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#header
+{
+	width: 100%;
+	background-color: #034d1a;
+	color: #fff;
+	font-size: 1.4em;
+	margin: 0 0 20px 0;
+	height: 3em;
+	padding-top: 1.6em;
+}
+
+#header p
+{
+	margin: 0;
+}

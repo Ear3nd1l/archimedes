@@ -1,0 +1,187 @@
+#inOutBoardStatusList
+{
+	float: left;
+	width: 166px;
+	background-color: #c7d4c5; 
+	border: 1px solid #355422;
+	height: 205px;
+	padding: 5px 2px;
+}
+
+#inOutBoardOptions
+{
+	float: left;
+	width: 420px;
+	border-top: 1px solid #355422; 
+	border-right: 1px solid #355422;
+	border-bottom: 1px solid #355422;
+	height: 215px;
+}
+
+#inOutBoardReturnInfo
+{
+	background-color: #dbe3da;
+	padding: 5px;
+}
+
+#inOutBoardReturnDate
+{
+	float: left;
+	width: 49%;
+	
+}
+
+#calReturnDate
+{
+	width: 80px;
+}
+
+#inOutBoardReturnTime
+{
+	float: right;
+	width: 49%;
+}
+
+#inOutBoardComments
+{
+	padding: 5px;
+}
+
+#inOutBoardSubmit
+{
+	margin: 20px 0;
+}
+
+#tblInOutBoard
+{
+}
+
+#inOutBoardHeader
+{
+	width: 598px;
+	color: #fff;
+	background-color: #355422;
+}
+
+#inOutBoardHeader th
+{
+	padding: 2px 0 2px 5px;
+	cursor: pointer;
+}
+
+.tblDataListRow
+{
+	padding: 1px;
+}
+
+.tblDataListRow td
+{
+	padding: 2px 0 2px 5px;
+	height: 100px;
+	background-color: #e4eae3;
+	border-top: 2px solid #fff;
+}
+
+tr.inOutBoardStatusIn td
+{
+	background-color:#c7d4c5;
+	color: #333;
+}
+
+tr.inOutBoardStatusIn td a:link
+{
+	color: #355422;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+tr.inOutBoardStatusVacation td
+{
+	background-color: #c9951c;
+	color: #333;
+}
+
+tr.inOutBoardStatusVacation td a:link
+{
+	color: #355422;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+tr.inOutBoardStatusSick td
+{
+	background-color: #c9951c;
+	color: #333;
+}
+
+tr.inOutBoardStatusSick td a:link
+{
+	color: #355422;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+tr.inOutBoardStatusProfessionalLeave td
+{
+	background-color: #c9951c;
+	color: #333;
+}
+
+tr.inOutBoardStatusProfessionalLeave td a:link
+{
+	color: #355422;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.tblDataListRow:hover td
+{
+	background-color:#ffcccc;
+}
+
+.inOutBoardUserLink
+{
+	color: #355422 !important;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.inOutBoardName
+{
+	width: 20%;
+}
+
+.inOutBoardName a:link, .inOutBoardName a:visited
+{
+}
+
+.inOutBoardStatus
+{
+	width: 10%;
+}
+
+.inOutBoardReturnTime
+{
+	width: 10%;
+}
+
+.inOutBoardReturnDate
+{
+	width: 10%;
+}
+
+.inOutBoardComment
+{
+	width: 20%;
+	overflow: hidden;
+}
+
+.inOutBoardComment p
+{
+	font-size: .9em;
+}
+
+.inOutBoardContact
+{
+	width: 30%;
+}

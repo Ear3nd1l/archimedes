@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+.pageBucket
+{
+	margin: 5px;
+	padding: 5px;
+}
+
+#bktRightSidebar
+{
+	float: right;
+	width: 200px;
+	min-height: 800px;
+}
+
+#bktLeftContent
+{
+	float: left;
+	width: 790px;
+	min-height: 800px;
+}
+
+#bktLeftSidebar
+{
+	float: left;
+	width: 200px;
+	min-height: 800px;
+}
+
+#bktContent
+{
+	float: left;
+	width: 790px;
+	min-height: 800px;
+}
+
+.TwoColSidebar
+{
+	width: 200px;
+	float: left;
+	height: 800px;
+	display: inline;
+}
+
+.TwoColContent
+{
+	width: 790px;
+	float: right;
+	height: 800px;
+	display: inline;
+}
+
+.TwoColHidden
+{
+	display: none;
+}
+
+#bktBanner
+{
+	height: 150px;
+}

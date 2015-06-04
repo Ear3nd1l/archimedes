@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+.pageBucket
+{
+	margin: 5px;
+	padding: 5px;
+}
+
+#bktLeftSidebar
+{
+	float: left;
+}
+
+#bktRightSidebar
+{
+	float: right;
+}
+
+#bktContent
+{
+	min-height: 800px;
+	display: inline;
+}
+
+#bktLeftContent
+{
+	float: left;
+}
+
+.TwoColSidebar
+{
+}
+
+.TwoColSidebarRight
+{
+}
+
+.TwoColContentLeft
+{
+}
+
+.TwoColContent
+{
+}
+
+.TwoColRightContent
+{
+	float: right;
+}

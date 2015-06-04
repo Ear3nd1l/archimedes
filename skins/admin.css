@@ -1,0 +1,1840 @@
+@charset "utf-8";
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 1.3em;
+	margin: 0;
+}
+
+p
+{
+	color: #0b4407;
+}
+
+/* Navigation Styles */
+
+#divNavigation
+{
+	background-color: #3a3a3a;
+	padding-top: 7px;
+	position: relative;
+}
+
+.lstAdminNavigation
+{
+	list-style-type: none;
+	margin: 0;
+}
+
+.liNavigationItem
+{
+	list-style-type: none;
+	display: inline;
+}
+
+.liActiveNavigationItem
+{
+	list-style-type: none;
+	display: inline;
+}
+
+.liNavigationItem a
+{
+	color: #fff;
+	background-color: #648560;
+	text-align: center;
+	padding-top: 8px;
+	text-decoration: none;
+	width: 135px;
+	height: 32px;
+	border: 1px solid #fff;
+	border-bottom: none;
+	display: block;
+	float: left;
+	margin-right: 4px;
+	position: relative;
+	top: 3px;
+}
+
+.liActiveNavigationItem a
+{
+	color: #fff;
+	text-align: center;
+	padding-top: 10px;
+	text-decoration: none;
+	width: 135px;
+	height: 30px;
+	border: 1px solid #fff;
+	border-bottom: none;
+	display: block;
+	float: left;
+	margin-right: 4px;	
+	z-index: 3;
+	background-color: #0b4407;
+	position: relative;
+	top: 1px;
+}
+
+#imgArchimedesLogo
+{
+	position: absolute;
+	top: 10px;
+	right: 3px;
+}
+
+#divSeparatorBar
+{
+	height: 54px;
+	width: 100%;
+	background-image: url(../admin/images/separatorBarBG.jpg);
+	background-repeat: repeat-x;
+	position: relative;
+	top: -2;
+	z-index: 2;
+	border-top: 1px solid #fff;
+}
+
+/* End Navigation Styles */
+
+.jqAccordianHandle
+{
+	width: 100%;
+	color: #fff;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	background-color: #3399CC;
+	padding: 4px 0px;
+	cursor: pointer;
+	margin: 0;
+	border-bottom: 1px solid #336699;
+	text-indent: 4px;
+}
+
+.jqAccordian
+{
+	width: 600px;
+	padding: 0;
+	border: 1px solid #3399CC;
+}
+
+.hidden
+{
+	display: none;
+}
+
+.jqAccordianSmallHandle
+{
+	width: 500px;
+	font-size: 14px;
+	color: #fff;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	background-color: #3399CC;
+	padding: 4px 0px;
+	cursor: pointer;
+	margin: 0;
+	border-bottom: 1px solid #336699;
+	text-indent: 4px;
+}
+
+.jqSmallAccordian
+{
+	width: 500px;
+	padding: 0;
+	background-color: #ddd;
+	border: 1px solid #3399CC;
+}
+
+.center
+{
+	margin: 0 50px 0 50px;
+}
+
+.pageMenuItem
+{
+	background-image: url(/admin/images/pageListItem.jpg);
+	height: 48px;
+	width: 580px;
+	padding: 4px 10px 4px 10px;
+	margin-bottom: 1px;
+	margin-top: 1px;
+}
+
+div.pageMenuItem:hover
+{
+	background-image: url(/admin/images/pageListItemHover.jpg);
+	cursor: pointer;
+}
+
+.pageMenuItemLayout
+{
+	float: left;
+}
+
+.pageMenuItemText
+{
+	float: left;
+	width: 440px;
+	padding-left: 10px;
+}
+
+.pageMenuTitle
+{
+	display: block;
+	color: #004f02;
+	font-size: large;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	margin-bottom: 5px;
+}
+
+.pageMenuDescription
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	color: #fff;
+	font-size: small;
+	margin-top: 10px;
+}
+.pageMenuDescriptionHover
+{
+	color: #fff;
+}
+
+.clear
+{
+	clear: both;
+	margin: 0;
+	width: 0;
+	height: 0;
+}
+
+.clearWithMargin
+{
+	clear: both;
+	height: 4px;
+}
+
+.divFormRow
+{
+	width: 700px;
+	margin-bottom: 10px;
+	clear: both;
+}
+
+.formLabel
+{
+	display: block;
+	color: #0b4407;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 1.3em;
+	float: left;
+	width: 175px;
+}
+
+.formTextbox
+{
+	height: 22px;
+	width: 379px;
+	font-size: 1em;
+	float: left;
+	color: #0b4407;
+	border: 0px;
+	background-color: transparent;
+	padding: 4px;
+	background-image: url(/admin/images/formTextboxBG.png);
+	background-repeat: no-repeat;
+}
+
+.formTextarea
+{
+	width: 377px;
+	font-size: 1em;
+	line-height: 1.3em;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 192px;
+	color: #0b4407;
+	border: 0px;
+	background-color: #cdd9cc;
+	background-image: url(/admin/images/formTextareaBG.png);
+	padding: 4px;
+}
+
+#divModules
+{
+	width: 800px;
+}
+
+.ribbonBar
+{
+	width: 100%;
+	height: 100px;
+	background-color: #ddd;
+	border: 1px solid #555;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.ribbonHolder
+{
+	overflow: hidden;
+	width: 800px;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	height: 120px;
+}
+
+.ribbon
+{
+	list-style-type: none;
+	width: 1500px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.ribbonScrollbar
+{
+	width: 98%;
+	position: absolute;
+	bottom: -100px;	
+}
+
+.ui-slider-handle {
+}
+
+.ribbonHandle
+{
+	margin: 0;
+	padding: 3px 5px;
+	height: 20px;
+	width: 90px;
+	display: block;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+}
+
+.ribbonHandleActive
+{
+	background-color: #888;
+}
+
+.draggableRibbonItem
+{
+	background-color: #555;
+	float: left;
+	display: block;
+	height: 90px;
+	width: 90px;
+	margin: 5px;
+	color: #fff;
+}
+
+.ribbonHeading
+{
+	background-color: #bbb;
+	width: 100%;
+	margin: 0;
+	border-top: 1px solid #555;
+	border-left: 1px solid #555;
+	border-right: 1px solid #555;
+}
+
+.bucketItemList
+{
+	list-style-type: none;
+	min-height: 800px;
+	margin: 0;
+	text-indent: 0;
+}
+
+.draggableBucketItem
+{
+	width: 100%;
+	background: #888;
+	display: block;
+	min-height: 90px;
+	list-style-type: none;
+	margin: 3px 0 0 -40px;
+	text-indent: 0;
+	position: static;
+}
+
+.draggableBucketItem span.spnName
+{
+	float: left;
+	display: block;
+	height: 90;
+}
+
+.draggableBucketItem span.spnEditModule
+{
+	float: right;
+	display: block;
+	height: 44px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.draggableBucketItem span.spnDeleteModule
+{
+	float: right;
+	display: block;
+	clear: both;
+	height: 44px;
+	font-weight: bold;
+	color: #fff;
+	vertical-align: bottom;
+}
+
+.draggingItem
+{
+	background-color: #555;
+	float: left;
+	display: block;
+	height: 90px;
+	width: 90px;
+	margin: 5px;
+	color: #fff;
+}
+
+.pageBucket
+{
+	background-color: #cdd9cc;
+	border: 1px solid #8fa78e;
+}
+
+#divModuleOptions
+{
+	border: 1px solid #000;
+	height: 480px;
+	width: 830px;
+	position: absolute;
+	display: none;
+	z-index: 100;
+	background: #fff;
+	padding: 10px;
+}
+
+#divLightboxOverlay
+{
+	z-index: 90;
+	position: absolute;
+	background-image: url(/images/common/lightboxOverlay.png);
+	display: none;
+	top: 0;
+	left: 0;
+}
+
+#lightBoxCloseButton
+{
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin-top: -12px;
+	margin-right: -12px;
+	background-image: url(/images/common/lightboxClose.png);
+	background-repeat: no-repeat;
+	height: 26px;
+	width: 26px;
+	cursor: pointer;
+	text-indent: -9999px;
+}
+
+.layoutItem
+{
+	float: left;
+	width: 101px;
+	height: 300px;
+	padding: 2px 3px;
+	text-align: center;
+	color: #0b4407;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+
+.layoutItemSelected
+{
+	background-image: url(/admin/images/Layouts/layoutItemSelectedBG.png);
+	background-repeat: no-repeat;
+}
+
+.layoutItem input
+{
+	display: block;
+	margin-left: 45px;
+}
+
+.layoutItem image
+{
+	display: block;
+}
+
+p.layoutName
+{
+	font-size: .7em;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.3em;
+	font-weight: bold;
+}
+
+p.layoutDescription
+{
+	font-size: .7em;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.3em;
+}
+
+#pSummaryLayoutName
+{
+	font-size: .7em;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.3em;
+	font-weight: bold;
+}
+
+#pSummaryLayoutDescription
+{
+	font-size: .7em;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.3em;
+}
+
+#divSummaryLayout
+{
+	width: 101px;
+	height: 300px;
+	padding: 2px 3px;
+	text-align: center;
+	color: #0b4407;
+	margin-right: 5px;
+	float: left;
+}
+
+.accessLevelItem
+{
+	float: left;
+	width: 101px;
+	height: 220px;
+	padding: 2px 3px;
+	text-align: center;
+	color: #0b4407;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+.accessLevelItemSelected
+{
+	background-image: url(/admin/images/AccessLevels/accessLevelItemSelectedBG.png);
+	background-repeat: no-repeat;
+}
+
+.accessLevelItem input
+{
+	display: block;
+	margin-left: 45px;
+}
+
+.accessLevelItem image
+{
+	display: block;
+}
+
+.accessLevelItem p.accessLevelItemName
+{
+	font-size: .7em;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.3em;
+	font-weight: bold;
+}
+
+.accessLevelItem p.accessLevelItemDescription
+{
+	font-size: .7em;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.3em;
+}
+
+#pSummaryAccessLevelItemName
+{
+	font-size: .7em;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.3em;
+	font-weight: bold;
+}
+
+#pSummaryAccessLevelItemDescription
+{
+	font-size: .7em;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.3em;
+}
+
+#divSummaryAccessLevel
+{
+	width: 101px;
+	height: 300px;
+	padding: 2px 3px;
+	text-align: center;
+	color: #0b4407;
+	margin-right: 5px;
+	float: right;
+}
+
+.validationErrorMarker
+{
+	text-indent: -9999px;
+	background-image: url(/admin/images/requiredFieldMarker.png);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	display: block;
+	float: left;
+	width: 102px;
+	height: 27px;
+	margin-top: 2px;
+}
+
+.validationError
+{
+	color: red;
+	font-size: .9em;
+	font-style: italic;
+	font-weight: bold;
+	display: none;
+	clear: both;
+	margin-bottom: 10px;
+}
+
+.validationErrorTextBox
+{
+	height: 22px;
+	width: 379px;
+	font-size: 1em;
+	float: left;
+	color: #8f3636;
+	border: 0px;
+	background-color: transparent;
+	padding: 4px;
+	background-image: url(/admin/images/formTextboxBGInvalid.png);
+	background-repeat: no-repeat;
+}
+
+.btnToggle
+{
+	cursor: pointer;
+}
+
+.imgButton
+{
+	cursor: pointer;
+}
+
+.permissionsBox
+{
+	overflow: scroll;
+	overflow-x: hidden;
+	height: 200px;
+	width:232px;
+	float: left;
+	margin-right: 5px;
+	border: 1px dotted #ccc;
+}
+
+.permissionsBoxHover
+{
+	border: 1px dotted #777;
+}
+
+#divAvailableUsers
+{
+}
+
+#divPageManagers
+{
+}
+
+#divPageEditors
+{
+}
+
+#divAvailableUsers span.spnAvailableUserItem
+{
+	display: block;
+	background-image: url(/admin/images/Permissions/availableUsersBG.png);
+	background-repeat: no-repeat;
+	height: 27px;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	text-indent: 5px;
+	font-size: 1em;
+	line-height: 1.5em;
+	cursor: pointer;
+	width: 214px;
+}
+
+span.spnAssignedUsersItem
+{
+	display: block;
+	background-image: url(/admin/images/Permissions/assignedUserBG.png);
+	background-repeat: no-repeat;
+	height: 27px;
+	color: #0b4407;
+	font-family: Arial, Helvetica, sans-serif;
+	text-indent: 5px;
+	font-size: 1em;
+	line-height: 1.5em;
+	cursor: pointer;
+	width: 214px;
+}
+
+.divPageTemplate
+{
+	padding: 10px;
+	margin-bottom: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.0em;
+	line-height: 1.5em;
+	color: #0b4407;
+	background-color: #f2f5f2;
+	border: 1px solid #e3e9e3;
+	width: 600px;
+	cursor: pointer;
+}
+
+.roundCorners
+{
+	background-color: #cdd9cc;
+	border: 1px solid #8fa78e;
+}
+
+.templateName
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.4em;
+	line-height: 2.1em;
+	margin: 0;
+	color: #0b4407;
+}
+
+.templateDescription
+{
+	font-size: .9em;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5em;
+	color: #0b4407;
+}
+
+.imgLayoutIconPageWizard
+{
+	float: left;
+	margin-right: 10px;
+}
+
+.layoutOptionPageWizard
+{
+	font-size: .7em;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.3em;
+	font-weight: bold;
+	float: left;
+	margin-right: 10px;
+}
+
+.wizardPanel
+{
+	min-height: 290px;
+	position: absolute;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.0em;
+	line-height: 1.5em;
+	color: #0b4407;
+	background-color: #e3e9e3;
+	border: 1px solid #a4ba9b;
+	width: 750px;
+	padding: 10px 10px 35px 10px;
+	margin-bottom: 10px;
+}
+
+.wizardSummaryPanel
+{
+	position: relative;
+	width: 750px;
+	padding: 10px 10px 0 10px;
+	display: none;
+}
+
+.wizardPanelHeading
+{
+	font-size: 1.2em;
+	font-variant: small-caps;
+	font-weight: bold;
+	margin-top: 0;
+}
+
+.formWizardButton
+{
+	position: absolute;
+	bottom: 2px;
+	cursor: pointer;
+}
+
+.WizardBack
+{
+	left: 2px;
+	text-indent: -9999px;
+	width: 89px;
+	height: 29px;
+	padding: 0;
+	background-image: url(/admin/images/wizardBack.png);
+}
+
+.WizardNext
+{
+	right: 2px;
+	text-indent: -9999px;
+	width: 89px;
+	height: 29px;
+	padding: 0;
+	background-image: url(/admin/images/wizardNext.png);
+}
+
+.WizardFinish
+{
+	right: 2px;
+	text-indent: -9999px;
+	width: 89px;
+	height: 29px;
+	padding: 0;
+	background-image: url(/admin/images/wizardFinish.png);
+}
+
+.wizardText
+{
+	margin-top: 0;
+}
+
+#wizardSummaryLeft
+{
+	float: left;
+	width: 70%;
+}
+
+#wizardSummaryRight
+{
+	float: right;
+	width: 30%;
+}
+
+.formSummaryValue
+{
+	display: block;
+	float: right;
+	width: 400px;
+	font-size: .8em;
+}
+
+.wizardLabel
+{
+	display: block;
+	color: #0b4407;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 1.3em;
+	float: left;
+	width: 125px;
+}
+
+.wizardSummaryLabel
+{
+	display: block;
+	color: #0b4407;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .8em;
+	line-height: 1.3em;
+	float: left;
+	width: 100px;
+	font-weight: bold;
+}
+
+/* Help Styles */
+
+.helpCallout
+{
+	font-weight: bold;
+	font-size: .9em;
+	line-height: 1.2em;
+}
+
+.helpNote
+{
+	font-weight: bold;
+	font-size: .8em;
+	line-height: 1.2em;
+	font-style: italic;
+}
+
+.alertCallout
+{
+	font-weight: bold;
+	color: red;
+}
+
+.tabHandle
+{
+	display: inline;
+	padding: 0 5px;
+}
+
+.tabPanel
+{
+	height: 425px;
+}
+
+.overflowScroll
+{
+	overflow: scroll;
+	height: 400px;
+}
+
+.btnLightboxCloser
+{
+	position: absolute;
+	bottom: 105px;
+	right: 10px;
+}
+
+.moduleOptionsLabel
+{
+	display: block;
+	color: #0b4407;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .8em;
+	line-height: 1.3em;
+	float: left;
+	width: 200px;
+	font-weight: bold;
+}
+
+.moduleOptionsValue
+{
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .8em;
+	line-height: 1.3em;
+	width: 400px;
+}
+
+.adminHR
+{
+	border-top: 1px solid #0b4407;
+	width: 96%;
+	text-align: center;
+}
+
+.deleteAttributeIcon
+{
+	text-indent: -9999px;
+	display: block;
+	height: 14px;
+	width: 14px;
+	float: left;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+.editAttributeIcon
+{
+	text-indent: -9999px;
+	display: block;
+	height: 14px;
+	width: 14px;
+	float: left;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+.ulAttributesList
+{
+	list-style: none;
+}
+
+#ulAttributesList li
+{
+	display: block;
+	clear: both;
+}
+
+
+.liAttributeItem
+{
+	margin-bottom: 2px;
+	width: 700px;
+	border: 1px solid #fff;
+}
+.sortableAttributeItem
+{
+	background-color: #eee;
+	border: 1px solid #bbb;
+	cursor: pointer;
+}
+
+/* UI Widget Dialog box styles */
+
+.dialogBox
+{
+	font-size: .9em;
+	line-height: 1.3em;
+	color: #fff;
+}
+
+.dialogBox button
+{
+	font-size: .9em;
+}
+
+p.dialogText
+{
+	color: #fff;
+}
+
+#divUploadFile
+{
+	z-index: 100;
+	position: absolute;
+	padding: 0px;
+	width: 840px;
+}
+
+#divEditFile
+{
+	z-index: 100;
+	position: absolute;
+	padding: 0px;
+	width: 840px;
+	min-height: 230px;
+}
+
+.frmAjaxForm
+{
+	width: 100%;
+	padding: 10px;
+	background-image: url('/images/jqLightboxBackground.png');
+	background-repeat: repeat-y;
+	margin: 0;
+}
+
+.hidden
+{
+	display: none;
+}
+
+#lnkUploadFile
+{
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#spnImagePath
+{
+	white-space: nowrap;
+}
+
+.selectedRow
+{
+	background-color: #999;
+	color: fff;
+}
+
+.selectedRow td
+{
+	color: #fff;
+}
+
+#divFolderList
+{
+	float: left;
+	width: 200px;
+	height: 400px;
+}
+
+.folderHandle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.0em;
+	display: block;
+	margin: 0;
+	padding: 2px 0;
+	cursor: pointer;
+}
+
+#divFolderContainer
+{
+	float: left;
+	width: 400px;
+	height: 420px;
+	margin: 0 15px;
+}
+
+#divFilePreview
+{
+	float: left;
+	width: 280px;
+	height: 400px;
+	background-color: #13460c;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	padding: 10px;
+}
+
+.filePanel
+{
+	background-color: #13460c;
+	height: 100%;
+	margin: 0;
+}
+
+.fileRow
+{
+	height: 20px;
+	background-image: url(/admin/images/FileManager/fileRowBG.png);
+	background-repeat: repeat-x;
+	color: #fff;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .9em;
+}
+
+.tblFileList
+{
+	margin: 1px;
+}
+
+.lnkPreview
+{
+	cursor: pointer;
+}
+
+.fileCell
+{
+	cursor: pointer;
+}
+
+.fileCell:hover
+{
+	background-color: #26691d;
+	background-image: none;
+}
+
+.lblEmptyFolder
+{
+	margin: 0px;
+	padding: 5px;
+	font-weight: bold;
+	font-size: .9em;
+	color: #fff;
+}
+
+#imgFilePreview
+{
+	margin: 5px 15px;
+}
+
+.filePreviewLabel
+{
+	display: block;
+	float: left;
+	width: 100px;
+	font-weight: bold;
+}
+
+.filePreviewValue
+{
+	display: block;
+	float: left;
+}
+
+.filePreviewRow
+{
+	display: block;
+	clear: both;
+}
+
+.lightBox
+{
+	border: 1px solid #000;
+	height: 480px;
+	width: 830px;
+	position: absolute;
+	display: none;
+	z-index: 100;
+	background: #fff;
+	padding: 10px;
+}
+
+.h5AnnouncementTitle
+{
+	margin: 0;
+}
+
+.pAnnouncementAbstract
+{
+	font-size: .8em;
+	margin-bottom: 10px;
+	margin-top: 0;
+	color: #fff;
+}
+
+.tblData
+{
+	font-size: .9em;
+	margin: 20px 0 20px 15px;
+}
+
+.tblData thead
+{
+	background-color: #55a120;
+	color: #fff;
+}
+
+.tblDataRow
+{
+	cursor: pointer;
+}
+
+.tblDataRowInput
+{
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.tblData tr:hover
+{
+	background-color: #55a120;
+}
+
+.adminEditorRow
+{
+	background-color: #8cc362;
+	color: #0b4407;
+	display: none;
+}
+
+.iFrameFormLabel
+{
+	display: block;
+	color: #35650f;
+}
+
+.iFrameFormInput
+{
+	width: 100%;
+}
+
+#divPageEditor
+{
+	overflow-y: scroll;
+	height: 450px;
+}
+
+.ulSortableList
+{
+	padding: 0;
+	list-style-type: none;
+	margin: 0;
+}
+
+.liSortableItem
+{
+	background-color: #0b4407;
+	color: #fff;
+	margin: 1px;
+	cursor: pointer;
+}
+
+.floatLeft
+{
+	float: left;
+}
+
+.floatRight
+{
+	float: right;
+}
+
+.tdFAQAdminRow
+{
+	cursor: pointer;
+}
+
+/* Admin Panel Styles */
+
+#leftColumn
+{
+	float: left;
+	width: 210px;
+	margin-top: 20px;
+}
+
+#rightColumn
+{
+	float: left;
+	margin: 20px 0 0 10px;
+	position: relative;
+}
+
+#admCalendarPanel
+{
+	padding: -10px 10px 0 10px;
+	width: 180px;
+	height: 270px;
+}
+
+.sidebarPanel
+{
+	background-color: #083505;
+	width: 180px;
+	height: 250px;
+	z-index: 100;
+	color: #fff;
+	padding: 10px;
+}
+
+.sidebarPanel h3
+{
+	color: #fff;
+	margin: 0;
+}
+
+.sidebarPanel p
+{
+	color: #fff;
+	margin: 0;
+}
+
+#admEventsPanel
+{
+	background-color: #b0b0b0;
+	width: 200px;
+	height: 270px;
+	z-index: -1;
+	position: relative;
+	top: -250px;
+}
+
+#admStatsPanel
+{
+	margin-top: -220px;
+}
+
+#admAnnouncementPanel
+{
+}
+
+.panel
+{
+	background-color: #b0b0b0;
+	width: 800px;
+	min-height: 200px;
+}
+
+.panelHeading
+{
+	background-color: #083505;
+	color: #fff;
+	padding: 6px 10px;
+	width: 760px;
+	margin: 0px 10px;
+	position: relative;
+	top: 5px;
+	cursor: default;
+}
+
+.rounded
+{
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+}
+
+.roundedSmall
+{
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.shadow
+{
+	-moz-box-shadow: 0 0 6px 0 #000;
+}
+
+#timeLabel
+{
+	color: #fff;
+	font-size: 3em;
+	text-align: center;
+	margin: 0;
+	position: relative;
+	top: 15px;
+}
+
+#dayLabel
+{
+	margin-top: 43px;
+	margin-bottom: 5px;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: .9em;
+}
+
+.panelItem
+{
+	background-color: #0f380c;
+	background-image: url(/admin/images/common/panelBG.gif);
+	background-repeat: repeat-x;
+	height: 78px;
+	width: 96%;
+	padding: 5px 1%;
+	margin:  2% 1%;
+	position: relative;
+}
+
+.page1Item
+{
+	border: 1px solid #fff;
+	cursor: pointer;
+}
+
+.page1Item:hover
+{
+	background-color: #021800;
+	background-image: none;
+}
+
+.page2Item
+{
+	border: 1px solid #fff;
+	background-image: url(/admin/images/common/panel2BG.gif);
+	background-color: #3a5837;
+	cursor: pointer;
+	width: 94%;
+	margin-left: 3%;
+}
+
+.page2Item:hover
+{
+	background-color: #021800;
+	background-image: none;
+}
+
+.page3Item
+{
+	border: 1px solid #fff;
+	background-image: url(/admin/images/common/panel3BG.gif);
+	background-color: #617660;
+	cursor: pointer;
+	width: 92%;
+	margin-left: 5%;
+}
+
+.page3Item:hover
+{
+	background-color: #021800;
+	background-image: none;
+}
+
+.page4Item
+{
+	border: 1px solid #fff;
+	background-image: url(/admin/images/common/panel4BG.gif);
+	background-color: #889387;
+	cursor: pointer;
+	width: 90%;
+	margin-left: 7%;
+}
+
+.page4Item:hover
+{
+	background-color: #021800;
+	background-image: none;
+}
+
+.pageMenuTitle
+{
+	color: #fff;
+}
+
+.announcementTitle
+{
+	color: #fff;
+	margin: 0;
+	cursor: pointer;
+}
+
+p.announcementAbstract
+{
+	color: #fff;
+	margin: 0;
+}
+
+.imageRotatorTitle
+{
+	color: #fff;
+	margin: 0;
+	cursor: pointer;
+}
+
+p.imageRotatorAbstract
+{
+	color: #fff;
+	margin: 0;
+}
+
+.divThumbnailPreview
+{
+	width: 80px;
+	height: 80px;
+	border: 2px solid #fff;
+	position: absolute;
+	top: 2px;
+	right: 4px;
+}
+
+p.imageRotatorAbstract
+{
+	color: #fff !important;
+	width: 670px;
+}
+
+.textShadow
+{
+	text-shadow: #333 2px 2px 2px;
+}
+
+.sidebarPanel p
+{
+	margin-bottom: 5px;
+}
+
+.sidebarPanel p a
+{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* End Admin Panel Styles */
+
+/* Calendar Styles */
+
+.monthView
+{
+	margin: 0 auto;
+	width: 180px;
+}
+
+.weekRow
+{
+}
+
+.dayCell
+{
+	float: left;
+	width: 20px;
+	height: 20px;
+	padding: 2px;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	overflow: hidden;
+	position: relative;
+	color: #fff;
+	font-size: .9em;
+	letter-spacing: 1px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.notCurrentMonth
+{
+	color: #446242;
+}
+
+.monthPrevious
+{
+	float: left;
+	width: 5%;
+	text-align: left;
+	padding: 0 1%;
+	cursor: pointer;
+	color: #fff;
+	text-decoration: none;
+	margin: 0;
+}
+
+.monthNext
+{
+	float: right;
+	width: 5%;
+	text-align: right;
+	padding: 0 5% 0 0;
+	cursor: pointer;
+	color: #fff;
+	text-decoration: none;
+	margin: 0;
+}
+
+.currentMonth
+{
+	width: 83%;
+	margin: 0;
+	text-align: center;
+	float: left;
+	color: #fff;
+	font-size: .9em;
+	display: block;
+	letter-spacing: 1px;
+}
+
+/* End Calendar Styles */
+
+/* Fancy Table Styles */
+
+.tblFancy
+{
+	font-size: .9em;
+	margin: 20px 0 20px 15px;
+}
+
+.tblFancy tbody
+{
+	background-color: #fff;
+	border-left: 1px solid #fff;
+}
+
+.tblFancy thead tr
+{
+	height: 27px;
+}
+
+.tblFancy tfoot tr
+{
+	height: 22px;
+	background-color: #052802;
+}
+
+.tblFancy thead tr th
+{
+	color: #fff;
+	background-color: #052802;
+	border-bottom: 1px solid #fff;
+	cursor: pointer;
+}
+
+#tblTopLeft
+{
+	background-image: url(/admin/images/common/tblTopLeft.gif);
+	background-position: left top;
+	background-color: #052802;
+	background-repeat: no-repeat;
+	padding-left: 15px;
+}
+
+#tblTopRight
+{
+	background-image: url(/admin/images/common/tblTopRight.gif);
+	background-position: right top;
+	background-color: #052802;
+	background-repeat: no-repeat;
+	padding-right: 5px;
+}
+
+#tblBottomLeft
+{
+	background-image: url(/admin/images/common/tblBottomLeft.gif);
+	background-position: left top;
+	background-color: #052802;
+	background-repeat: no-repeat;
+	padding-left: 15px;
+}
+
+#tblBottomRight
+{
+	background-image: url(/admin/images/common/tblBottomRight.gif);
+	background-position: right top;
+	background-color: #052802;
+	background-repeat: no-repeat;
+	padding-right: 5px;
+}
+
+.tblFancy tbody tr.even
+{
+	background-image: url(/admin/images/common/tblOddRow.gif);
+	background-repeat: repeat-x;
+	height: 27px;
+}
+
+.tblFancy tbody tr.odd
+{
+	background-image: url(/admin/images/common/tblEvenRow.gif);
+	background-repeat: repeat-x;
+	height: 27px;
+}
+
+.tblFancy tbody tr:hover
+{
+	cursor: pointer;
+	background-color: #5d925a;
+	background-image: none;
+}
+
+.tblFancy tbody tr td:first-child
+{
+	border-left: 1px solid #fff;
+	padding-left: 15px;
+}
+
+.tblFancy tbody tr td:last-child
+{
+	border-right: 1px solid #fff;
+}
+
+/* End Fancy Table Styles */
+
+/* User Form Styles */
+
+.frmLabel
+{
+	display: block;
+	width: 200px;
+	font-weight: bold;
+	font-size: .9em;
+}
+
+.frmInput
+{
+	display: block;
+	font-size: .7em;
+}
+
+.frmSelect
+{
+	font-size: .7em;
+}
+
+.inline
+{
+	display: inline;
+}
+
+.frmFrameLeft
+{
+	width: 386px;
+	padding: 10px;
+	float: left;
+	background-color: #477541;
+	border-right: 1px solid #d7e4d6;
+	height: 290px;
+}
+
+.frmFrameRight
+{
+	width: 385px;
+	padding: 10px;
+	float: left;
+	background-color: #477541;
+	border-left: 1px solid #869186;
+	height: 290px;
+	overflow: hidden;
+}
+
+.frmFrameFull
+{
+	width: 793px;
+	padding: 10px;
+	background-color: #c7d5c6;
+	clear: both;
+	float: none;
+	border-top: 1px solid #5d925a;
+	border-bottom: 4px solid #5d925a;
+}
+
+.frmFrameInnerLeft
+{
+	width: 396px;
+	padding: 0 0 5px 0;
+	float: left;
+	border-right: 1px solid #d7e4d6;
+	height: 120px;
+}
+
+.frmFrameInnerRight
+{
+	width: 385px;
+	float: right;
+	border-left: 1px solid #869186;
+	height: 120px;
+	position: relative;
+	padding: 0 0 5px 10px;
+}
+
+.btnSave
+{
+	position: absolute;
+	bottom: 4px;
+	right: 4px;
+}
+
+.tall
+{
+	height: 260px;
+}
+
+.taller
+{
+	height: 400px;
+}
+
+.divEditUserPanel
+{
+	position: relative;
+	height: 455px;
+}
+
+#divEditUserWizard
+{
+	height: 477px;
+	overflow: hidden;
+}
+
+.divWizardNext
+{
+	position: relative;
+}
+
+.divWizardPrevious
+{
+	position: relative;
+}
+
+#pnlRoles
+{
+	height: 435px;
+}
+
+.roleDescription
+{
+	font-size: .9em;
+	line-height: 1.1em;
+	margin: 0;
+}
+
+/* End User Form Styles */

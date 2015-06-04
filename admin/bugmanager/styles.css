@@ -1,0 +1,435 @@
+
+
+/* Created using Style Master from Western Civilisation CSS1 { 49 95 752 470 } */
+/* NETWORK and CHANNEL NAV WITH INDENTS */
+
+a:link
+{color: #242424}
+
+a:visited
+{color: #242424}
+
+.links10
+{color: #000000;
+font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+font-size:  10px;
+line-height:  14px;
+margin:   4px}
+
+.links10bold
+{color: #000000;
+font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+font-size:  10px;
+font-weight: bold;
+line-height:  14px;
+margin:   4px}
+
+.box9
+{color: #000000;
+font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+font-size:  9px;
+margin:   4px;
+text-decoration: none}
+
+.box10
+{color: #000000;
+font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+font-size:  10px;
+line-height:  12px;
+margin:   4px;
+text-decoration: none}
+
+.box10bold
+{color: #000000;
+font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+font-size:  10px;
+font-weight: bold;
+line-height:  12px;
+margin:   4px;
+text-decoration: none}
+
+/* NETWORK and CHANNEL NAV */
+
+.leftnav10bold
+{color: #000000;
+font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+font-size:  10px;
+font-weight: bold;
+text-decoration: none}
+
+.nav9bold
+{color: #000000;
+font-family: Arial, Helvetica, Geneva, Verdana, sans-serif;
+font-size:  9px;
+font-weight: bold;
+text-decoration: none}
+
+.nav9boldwhite
+{color: #ffffff;
+font-family: Arial, Helvetica, Geneva, Verdana, sans-serif;
+font-size:  9px;
+font-weight: bold;
+text-decoration: none}
+
+.nav10boldred
+{color: #990000;
+font-family: Arial, Helvetica, Geneva, Verdana, sans-serif;
+font-size:  10px;
+font-weight: bold;
+text-decoration: none}
+
+.nav10
+{color: #000000;
+font-family: Arial, Helvetica, Geneva, Verdana, sans-serif;
+font-size:  10px;
+text-decoration: none}
+
+.nav10white
+{color: #ffffff;
+font-family: Arial, Helvetica, Geneva, Verdana, sans-serif;
+font-size:  10px;
+text-decoration: none}
+
+.nav10bold
+{color: #000000;
+font-family: Arial, Helvetica, Geneva, Verdana, sans-serif;
+font-size:  10px;
+font-weight: bold;
+text-decoration: none}
+
+.nav10boldwhite
+{color: #ffffff;
+font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+font-size:  10px;
+font-weight: bold;
+text-decoration: none}
+
+.nav10top
+{color: #ffffff;
+font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+font-size:  10px;
+font-weight: bold;
+line-height:  12px;
+text-decoration: none}
+
+.nav11
+{color: #000000;
+font-family: Arial, Helvetica, Geneva, Verdana, sans-serif;
+font-size:  11px;
+line-height:  16px;
+text-decoration: none}
+
+.nav11red
+{color: #990000;
+font-family: Arial, Helvetica, Geneva, Verdana, sans-serif;
+font-size:  11px;
+text-decoration: none}
+
+.nav11bold
+{color: #000000;
+font-family: Arial, Helvetica, Geneva, Verdana, sans-serif;
+font-size:  11px;
+font-weight: bold;
+text-decoration: none}
+
+.nav11white
+{color: #ffffff;
+font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+font-size:  11px;
+text-decoration: none}
+
+.nav11boldwhite
+{color: #ffffff;
+font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+font-size:  11px;
+font-weight: bold;
+text-decoration: none}
+
+.nav12red
+{color: #990000;
+font-family: Arial, Helvetica, Geneva, Verdana, sans-serif;
+font-size:  12px;
+text-decoration: none}
+
+.nav12green
+{color: #006633;
+font-family: Arial, Helvetica, Geneva, Verdana, sans-serif;
+font-size:  12px;
+text-decoration: none}
+
+.nav12red
+{color: #990000;
+font-family: Arial, Helvetica, Geneva, Verdana, sans-serif;
+font-size:  12px;
+text-decoration: none}
+
+.nav16white
+{color: #ffffff;
+font-family: Arial, Helvetica, Geneva, Verdana, sans-serif;
+font-size:  16px;
+text-decoration: none}
+
+.search11boldwhite
+{color: #ffffff;
+font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+font-size:  11px;
+font-weight: bold}
+
+/* CONTENT VERDANA */
+
+.head, .title
+{color: #000000;
+font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+font-size:  18px;
+font-weight: bold}
+
+.head16
+{color: #000000;
+font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+font-size:  16px;
+font-weight: bold}
+
+.head14
+{color: #000000;
+font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+font-size:  14px;
+font-weight: bold;
+line-height:  18px}
+
+.head12
+{color: #000000;
+font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+font-size:  12px;
+font-weight: bold}
+
+.head11
+{color: #000000;
+font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+font-size:  11px;
+font-weight: bold;
+line-height:  16px}
+
+.body
+{color: #000000;
+font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+font-size:  12px}
+
+.body9
+{color: #000000;
+font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+font-size:  9px;
+line-height:  11px}
+
+.body9bold
+{color: #000000;
+font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+font-size:  9px;
+font-weight: bold}
+
+.body9boldwhite
+{color: #ffffff;
+font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+font-size:  9px;
+font-weight: bold}
+
+.byline
+{color: #000000;
+font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+font-size:  13px;
+font-style: italic;
+text-align: right}
+
+/* CONTENT ARIAL */
+
+.body12
+{color: #000000;
+font-family: Arial, Helvetica, Geneva, Verdana, sans-serif;
+font-size:  12px;
+line-height:  14px}
+
+.body12bold
+{color: #000000;
+font-family: Arial, Helvetica, Geneva, Verdana, sans-serif;
+font-size:  12px;
+font-weight: bold;
+line-height:  14px}
+
+.body11
+{color: #000000;
+font-family: Arial, Helvetica, Geneva, Verdana, sans-serif;
+font-size:  12px;
+line-height:  14px}
+
+.body11white
+{color: #ffffff;
+font-family: Arial, Helvetica, Geneva, Verdana, sans-serif;
+font-size:  11px;
+line-height:  13px}
+
+.body11bold
+{color: #000000;
+font-family: Arial, Helvetica, Geneva, Verdana, sans-serif;
+font-size:  11px;
+font-weight: bold;
+line-height:  13px}
+
+.body10
+{color: #000000;
+font-family: Arial, Helvetica, Geneva, Verdana, sans-serif;
+font-size:  10px;
+line-height:  12px}
+
+.body10white
+{color: #ffffff;
+font-family: Arial, Helvetica, Geneva, Verdana, sans-serif;
+font-size:  10px;
+line-height:  12px}
+
+.body10bold
+{color: #000000;
+font-family: Arial, Helvetica, Geneva, Verdana, sans-serif;
+font-size:  10px;
+font-weight: bold;
+line-height:  12px}
+
+.meta9
+{color: #000000;
+font-family: Arial, Helvetica, Geneva, Verdana, sans-serif;
+font-size:  9px;
+line-height:  11px}
+
+.meta9bold
+{color: #000000;
+font-family: Arial, Helvetica, Geneva, Verdana, sans-serif;
+font-size:  9px;
+font-weight: bold;
+line-height:  11px}
+
+/* ATTRIBUTES */
+
+P, TD, DIV
+{font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+font-size:  12px}
+
+DL, DT, DD, LI, UL, OL
+{font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+font-size:  12px}
+
+TH {
+	text-align: left;
+	background-color: #006600;
+	color: #ffffff;
+	font-size: 12px
+}
+
+.stripe {
+	background-color: #dddddd;
+}
+
+.stripe2 {
+	background-color: #efefef;
+}
+
+.table {
+	border: 1px solid #006600;
+}
+
+PRE
+{font-size:  14px;
+font-style: normal} Helvetica, Geneva, Verdana, sans-serif; 
+	font-weight: bold; 
+	line-height: 12px; 
+	color: #000000 
+}
+
+.meta9  { 
+	font-size: 9px; 
+	font-family: Arial, Helvetica, Geneva, Verdana, sans-serif; 
+	line-height: 11px; 
+	color: #000000 
+}
+
+.meta9bold  { 
+	font-size: 9px;
+	font-family: Arial, Helvetica, Geneva, Verdana, sans-serif; 
+	font-weight: bold;
+	line-height: 11px; 
+	color: #000000 
+} 
+
+/* ATTRIBUTES */
+P, TD, DIV  {
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, Geneva, sans-serif 
+}
+
+
+DL, DT, DD, LI, UL, OL	{
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, Geneva, sans-serif 
+}
+
+
+PRE  {
+	font-size: 14px;
+	font-style: monospace
+}
+
+.red
+{color: #990000;
+}
+
+.popup-hidden { 
+	visibility: hidden; 
+	display:none;  }
+	
+.popup-visible { 
+	visibility: visible; }
+	
+span.ig {
+	text-decoration: underline; 
+	color: red; 
+	cursor: hand; 
+	font-weight: bold;
+}
+
+span.ig {
+	color: #990000; 
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #B9BABC;
+	font-size:11px;
+}
+
+.table {
+	border: 1px #006600 solid;
+	background-color: #f0f0f0;
+}
+
+.boldtext {
+	font-weight: bold;
+}
+
+.stripe {
+	background-color: #E9FCD7;
+}
+
+.stripe2 {
+	background-color: #E6F8D3;
+}
+
+.msg {
+	background-color: #CCCCCC;
+	color: #cc0000;
+	font-weight: bold;
+	border: 1px solid #aaaaaa;
+	padding: 2px;
+	text-align:center
+}
+
+.taStatus {
+	color: #aaa;
+	font-size: 10px;
+}
